@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML practise tasks-GUVI</title>
+</head>
+<body>
+   <!--1. Fix the bugs in below snippet - ANSWER-->
+    <html lang="en">
+        <head>
+            <title>Document   </title>
+        </head>
+        <body>
+        <div> Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div>    Guvi Geek Network </div>
+        </body>
+    </html>
+
+    <!--2.Try the below one - corrected code below-->
+<html lang="en">
+    <head>
+        <title>Document guvi</title>
+        
+    </head>
+    <body>    
+        <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+        <div>
+                Guvi Geek Network
+        </div>
+    </body>
+</html>
+
+<!--3.Design a contact us form with all fields as required. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+</head>
+<body><form>
+    <h1>Contact Form</h1>
+    <h5>Please fill in your information and we'll be sending your order in no time</h5>
+    <h5>Your name: <input type="text" placeholder="enter first name" /></h5> 
+    <h5> Last Name: <input type="text" placeholder="enter last name"/></h5>
+   <h5>Your Email: <input type ="text" placeholder="e.g.guvi@gmail.com"/></h5>
+   <h5>Phone*: <input type="number" placeholder= "enter movile number"/></h5>
+   <h5>Message: <textarea  rows="4" cols="50"></textarea></h5>
+   <input type="checkbox" ><label>I agree  to the<a href= "Agree terms and conditions">terms and conditions</a></label><br></br>
+   <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+<!--4.Design a contact us form with all fields as required-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists in html</title>
+</head>
+<body>
+    <ul>
+  <li>Programming Language
+      <ul>
+          <li>Javascript
+              <ol type="a">
+                  <li>Angular</li>
+                  <li>React</li>
+                  <li>Vue.js</li>
+              </ol>
+          </li>
+          <li>Python
+              <ol type="a">
+                  <li>Django Framework</li>
+                  <li>Flask Framework</li>
+              </ol>
+          </li>
+          <li>Java
+              <ol type="a">
+                  <li>Spring</li>
+                  <li>Maven</li>
+                  <li>Hibernate</li>
+                    
+              </ol>
+          </li>
+      </ul>
+  </li>
+  <li>Database
+      <ul>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Cansandra</li>
+      </ul>
+  </li>
+  </ul>
+</body>
+</html>
+
+<!--5.Create an element that helps you to open the https://google.com in separate new tab.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Refer <a href="https://www.google.com/" target="_blank">Google</a> to know more</p>
+</body>
+</html> 
+
+<!--6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>Employee type:</p>
+  <input type="radio" value="salaried" name="employee-type"id="salaried" >
+  <label >Salaried</label><br>
+  <input type="radio" value="own-business" name="employee-type"id="own-business">
+  <label >Own Business </label><br>
+    </form>
+</body>
+</html>
+<!-- 7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        div
+        {
+        margin-left:200px;
+        margin-right: 750px;
+        border:3px solid black;
+        padding-left:10px;
+        padding-bottom:10px;
+        padding-top:5px;
+        }
+        Input[type=text]
+        {
+        border:none;
+        border-bottom: 2px solid black;
+        }
+        
+        h1{
+            display:inline;
+            color:white;
+        }
+        .font-style
+        {
+            font-family: 'Roboto', sans-serif;
+        
+        }
+       </style>
+</head>
+<body>
+    <div>
+       
+    <h1 style="background-color:red">Yes! I want to subscribe to <em>Mag-O-Zine</em></h1>
+   <form>
+        <table >
+            <tr>
+                <td><input type="text" name="Firstname" id="Fname" ></td>
+                <td><input type="text" name="Lastname" id="Lname" ></td>
+            </tr>
+            <tr>
+                 <td><label for="Fname">First Name</label></td>
+                 <td><label for="Lname">Last Name</label></td>
+            </tr>
+            <tr>
+                <td colspan="3" ><input type="text" size="70"name="Address" id="Address" ></td>
+            </tr>
+            <tr>
+                <td ><label for="Address">Address</label></td>
+            </tr>
+            <tr>
+                <td ><input type="text" name="City" id="Address" ></td>
+                <td ><input type="text" name="State" id="State" ></td>
+                <td ><input type="text" name="Zip" id="Zip" ></td>
+            </tr>
+            <tr>
+                <td><label for="Address">City</label></td>
+                <td><label for="State">State</label></td>
+                <td><label for="Zip">Zip</label></td>
+
+            </tr>
+        </table>
+        <label class="font-style">Subscribe for :</label>
+        <input type="radio" name="duration"value="1 year($19.95)" id="duration 1yr">
+        <label  class="font-style" for="duration iyr"> 1 year($19.95)</label>
+        <input type="radio" name="duration"value="2 years($35.00)" id="duration 2yr">
+        <label  class="font-style" for="duration 2yr"> 2 years($35.00)</label><br>
+        <label class="font-style" style="line-height:30px;" > Send me more information about :</label><br>
+        <input type="checkbox" name="course1 " id="course1 ">
+        <label  class="font-style" for=""> Computer-Zine </label><br>
+        <input type="checkbox" name="course2 " id="course2">
+        <label class="font-style" for=""> Fishing-Zine </label><br>
+        <input type="checkbox" name="course2" id="course3 ">
+        <label class="font-style" for=""> Cat-O-Zine </label>
+    </form>
+</div>
+</body>
+</html>
+
+
+<!-- 8.Use the table tag to design given image Click here. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>td, th {
+    border: 2px solid #1a0606;
+    text-align: left;
+    padding: 8px;
+  }
+ em{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 25px;
+     margin: 140px;
+ }
+  
+</style>
+<body>
+  <table >
+           <em>Health Chart</em>
+    <tr>
+        <th rowspan="2">State of vlalue</th>
+       <th rowspan="1" colspan="2">Fasting value</th><br>
+       <th rowspan="2">After eating</th>
+       <TR><TH>Height<TH>Weight
+        
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <td>Diabete</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>  
+    </table>
+
+  </table>
+</body>
+</html>
+
+<!-- 9.Write HTML input tags snippet to show default values for all Form elements. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application form using HTML form tags</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<style>
+  th,td{
+    width:150px;
+    color:brown;
+    font-family: 'Oswald', sans-serif;
+    line-height:35px;
+  }
+  table{
+          margin: auto;
+          border:2px solid black;
+          padding:50px;
+          background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 10%, rgba(253,187,45,1) 100%);
+  }
+</style>
+</head>
+
+<body>
+  <table >
+      <form method="post">
+    
+      <tr >
+        <th colspan="2" style="text-align:center;font-size:25px;"><u>APPLICATION FORM</u></th>
+      </tr>
+    <br>
+    
+    <tr >
+      <td colspan="2" style="text-align:center">PERSONAL DETAILS</td>
+    </tr>
+  <br>
+    <tr>
+      <td ><label for="name">Name</label></td>  
+  <td><input type="text" name="name" value="Your name" id="name"></td>  
+</tr><br>
+<tr>
+  <td>  <label for="emailid" >Email-id</label></td>
+  <td>  <input type="text" name="emailid" value="Email-id" id="emailid"></td>
+</tr><br>
+<tr>
+  <td> <label for="password" >Password</label></td>
+<td>  <input type="text" name="password" value="*****" id="password"></td>
+</tr><br>
+<tr>
+  <td>  <label >Gender</label></td> 
+  <td><input type="radio" name="gender" value="Male" id="male">
+   <label for="male">Male</label>
+    <input type="radio" name="gender" value="Female" id="female"> 
+    <label for="female">Female</label></td>
+</tr><br>
+<tr>
+  <td> <label for="DOB" >Date Of Birth</label></td> 
+   <td> <input type="date" name="DOB" value="" id="DOB"></td>
+</tr><br>
+<tr>
+   <td> <label for="address">Contact Address</label></td>
+  <td><textarea name="address" value="address" id="address"  style="width: 250px;
+    ;height: 84px" >address</textarea></td> 
+</tr><br>
+    
+<br>
+<tr >
+  <td colspan="2" style="text-align:center">EDUCATION DETAILS</td>
+</tr>
+<br>
+
+   <tr> 
+       <td><label for="degreegroups" class="text-space">Degree</label></td>
+    <td><select name="degreegroups" id="degreegroups">
+      <option>...Select Group...</option>
+      <option>BSc</option>
+      <option>BCom</option>
+      <option>BEd</option>
+      <option>BA</option>
+  </select></td>
+</tr><br>
+ <tr>
+    <td> <label for="Enggroups" class="text-space">Engineering</label></td>
+<td> <select name="Enggroups" id="Enggroups">
+      <option>...Select Group...</option>
+      <option>CSE</option>
+      <option>EEE</option>
+      <option>ECE</option>
+      <option>Civil</option>
+      <option>ME</option>
+  </select></td>
+</tr> <br>
+<tr>
+ <td> <label >Areas Of Interest</label></td><br>
+ 
+     <td><input type="checkbox" name="AOI" value="Performance Coach" id="Performance Coach">
+  <label for="Performance Coach">Performance Coach</label></td>
+</tr>
+  <br>
+  <tr>
+    <td></td>
+ <td><input type="checkbox" name="AOI" value="Account Manager" id="Account Manager">
+ <label for="Account Manager">Account Manager</label></td> 
+</tr><br>
+<tr>
+  <td></td>
+  <td><input type="checkbox" name="AOI" value="Administrative" id="Administrative">
+<label for="Administrative">Administrative</label></td>
+</tr><br>
+<tr>
+  <td></td>
+<td><input type="checkbox" name="AOI" value="Sales" id="Sales">
+  <label for="Sales">Sales</label></td>
+  </tr><br>
+  <tr>
+    <td></td>
+  <td><input type="checkbox" name="AOI" value="Human Resources" id="Human Resources">
+    <label for="Human Resources">Human Resources</label></td>
+    </tr><br>
+<tr>
+    <td> <label for="resume" class="text-space">Attach resume</label></td> 
+ <td><input type="file" name="resume" id="resume"  class="text-space"></td></tr>
+<br>
+<tr>
+<td><button type="submit" value="Submit" >Submit</button></td>  
+<td> <button type="Reset" value="Reset"  >Reset</button></td>  
+</tr>    
+</form>
+  </table>
+</body>
+</html>
+
+<!--- 10.In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  </head>
+<body>
+  <p><mark><strong>HTML & CSS is awesome</strong> </mark></p>
+</body>
+</html>
